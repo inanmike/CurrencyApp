@@ -1,0 +1,78 @@
+.currency-div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 600px;
+    height: 250px;
+    border: 1px solid bisque;
+    border-radius: 8px;
+    background-color: rgb(199, 87, 191, 0.5);
+}
+.amount{
+    width: 150px;
+    height: 30px;
+    margin-right: 5px;
+}
+.result{
+    width: 150px;
+    height: 30px;
+}
+.from-currency-option{
+    width: 100px;
+    height: 35px;
+    margin-right: 5px;
+}
+.to-currency-option{
+    width: 100px;
+    height: 35px;
+    margin-right: 5px;
+}
+.title{
+    font-size: 30px;
+    color: rgb(90, 68, 39);
+    background-color: rgb(163, 218, 163, 0.6);
+    width: 95%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+}
+.exchange-button{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+.exchange-button:hover{
+    background-color: white;
+    color: red;
+}
+.all-currency{
+    margin-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: 1px solid bisque;
+    border-radius: 8px;
+    background-color: rgb(199, 87, 191, 0.5);
+}
+.all-currency h3{
+    padding-left: 35%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.items{
+    padding-left: 10%;
+    font-size: 24px;
+}
+.item{
+    padding: 5px;
+}
